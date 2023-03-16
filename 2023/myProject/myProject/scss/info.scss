@@ -1,0 +1,61 @@
+.info{
+  max-height: 149px;
+}
+
+.info__row{
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__body {
+  display: flex;
+}
+
+.info__logo{
+  padding: 21px 0px 0px 20px;
+  color: #66C05D;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.info__connection {
+  display: flex;
+}
+
+.info__phone{
+  padding: 30px 40px 0px 0px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.info__button{
+  padding: 20px 0px 0px 0px;
+  
+}
+.info__buttonStyle{
+  border: 2px solid #66C05D;
+  border-radius: 40px;
+  min-height: 40px;
+  min-width: 170px;
+  color: #000000;
+  font-size: 14px;
+  background: none;
+}
+
+.info__line{
+  padding: 20px 0px 0px 0px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.info__rowText{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.info__text {
+  padding: 30px 40px 0px 0px;
+  color:#000000;
+  font-size: 16px;
+}
