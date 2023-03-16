@@ -151,6 +151,41 @@
                         </div>
                     </div>
                 </div>
+
+            <form onsubmit="return false">
+                <div class="comment">
+                    <div class="comment__row">
+                        <div class="container">
+                            <div class="comment__h1">Комментарии:</div>
+                            <div class="comment__p">
+                                <p class="comment__pName">Введите имя:</p>
+                                <p>Введите дату:</p>
+                            </div>
+                            <p class="comment__noneName">Отсутствует имя!</p>
+                            <div class="comment__info">
+                                <div class="comment__name">
+                                    <input class="comment__nameInput" type="text" placeholder="Имя" value=""/>
+                                </div>
+                                <div>
+                                    <input class="comment__dataInput" type="date" placeholder="Дата" value=""/>
+                                </div>
+                            </div>
+                            <p class="comment__pText">Введите текст комментария:</p>
+                            <p class="comment__noneText">Отсутствует текст!</p>
+                            <div class="comment__text">
+                                <textarea class="comment__textarea"  type="text" placeholder="Текст"></textarea>
+                            </div>
+                            <div class="comment__btn">
+                                <button class="comment__button" type="submit">Отправить</button>
+                            </div>
+                            <div class="comment__comment">
+                                <hr class="lineBorder">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
                 <footer class="footer">
                     <div class="footer__connection">
                         <div class="container">
@@ -208,5 +243,7 @@
                 </footer>
             </div>
         </div>
+
+        <script src="js/index.js"></script>
     </body>
 </html>
